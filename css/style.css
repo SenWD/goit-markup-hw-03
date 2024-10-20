@@ -390,7 +390,7 @@ color:#434455;
 
 
 
-    border: 1px solid rgb(0, 255, 110);
+   
 
     
 
@@ -660,7 +660,7 @@ flex-direction: row;
    line-height: 24px;
    letter-spacing: 0.02em;
    text-align: left;
-   
+   overflow: auto;
     
   
 }
@@ -668,7 +668,7 @@ flex-direction: row;
 
 .telephone{
     width: 151px;
-    height: 24px;
+  height: 24px; 
     margin-top:24px;
     margin-left:40px;
   
@@ -676,7 +676,7 @@ flex-direction: row;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
+    /* text-align: left; */
     display: flex;
  
 border: 1px solid rgb(0, 255, 110);
