@@ -1,75 +1,217 @@
-.body-main {
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main page{
     font-family:"Roboto",sans-serif;
-    margin:0;
-    padding:0;
-   background-color: #ffffff;
-   
     
+    background-color: #ffffff;
+    width: 1440px;
+    height: 3300px;
+    top: -1169px;
+    left: 370px;
+    gap: 0px;
+    opacity: 0px;
+
+} 
+
+
+.container { 
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+
+
+    .main-page .container{
+        margin-left: 0px;
+        width: calc(100%-312px);
+        padding: 24px 156px;
+        border: 1px solid #ec3fc1;
+    }
+
+
+
+
+.top {
+  
+    gap: 0px;
+    opacity: 0px; */
     
+    border: 0px 0px 10px 0px solid hwb(171 9% 3% / 0.705);
+
+
+
+.top-container {
+    display: flex;
+    padding-left: 156px;
+    border: 5 solid #4D5AE5;
 
 }
 
-   .page-logo { 
+
+
+   
+body .contanier li {
+
+    list-style-type: none;
+    
+}
+
+
+body .container nav{
+width: 1128px;
+margin-left: 0px ;
+
+border: 1px solid #4d5ae5;
+}
+
+.container li {
+    display: flex;
+    }
+    
+body .container nav ul {
+
+    display: flex;
+    
+    } 
+
+/***** LOGO ******/
+
+    .top-nav {
+        width:261px;
+       /*height:24px; 
+        margin-top:24px; */
+       display: flex;
+    
+        border: 1px solid #2ad63e;
+      
+       
+    
+    }
+.logo-web,
+.logo-studio{
+    text-transform: uppercase;
+}
+
+   .logo-web { 
         font-family:"Raleway", sans-serif;
          font-weight:700;
          font-size:18px;
          line-height:1.17;
-         text-transform:uppercase;
+        
          color:#4d5ae5;
          letter-spacing : 0.03em;
-        text-decoration: none;
+         margin-right: 76px;
+        /* text-transform: uppercase;
         width:105px;
          height:36px;
-  margin-top: 24px;
-  box-sizing:border-box;
-
+        margin-top: 0px; 
+       
+        flex-direction: row; */
+          
     }   
     
 
 
-.page-logo-spancolor {
+.logo-studio {
     color:#2e2f42;
-         
+        
     
 } 
+/********************* MENU *****************-**/
 
-.list-name {
-    font-weight:500; 
+
+
+
+/*
+.studio,
+.portfolio,
+.contacts {
+
+    width:70px;
+    height:24px;
+    
+} */
+.menu{
+    border: 1px solid #2ad63e;
+    width: calc(100%-80px)/3;
+   margin-left: 76px;
+   margin-right: 332px;
+    width:261px;
+ height:24px;
+   padding-left: 0px;
+    text-decoration: none;
+  gap: 40px;
+  opacity: 0px;
+  font-weight: 500; 
     font-size:16px;
     line-height:1.5;
     letter-spacing : 0.02em;
     color:#2e2f42;
-    text-decoration: none;
-    width:261px;
-    height:26px;
-
-    }
-
-    body li {
-    list-style-type: none;
+    display:flex;
+flex-direction: row;
+box-sizing:border-box;
+flex-wrap: wrap;
 }
 
-.list-name:hover,
-.list-name:focus {
+
+menu{
+    list-style-type: none;    
+}
+
+
+.menu:hover,
+.menu:focus {
     color:#404bbf;
     }
 
- .addr { 
-    font-weight:400;
-    font-size:16px;
-    line-height:1.5;
-    letter-spacing : 0.02em;
-    font-style:normal; 
-     }
- .addr { 
+.addr { 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align:left;
+
     color:#434455;
-   text-decoration:none;
+    text-decoration: none;
+   display:flex;
+   flex-direction: row;
+     box-sizing:border-box;
+     border: 1px solid #dc1f4e; 
+
+
  }
 
 .addr :hover,
 .addr :focus {
     color:#404bbf;
+
+
     }
+
+
+.mail{
+    width: 153px;
+    margin-top:24px;
+  /*overflow: visible;*/
+  
+}
+
+
+.telephone{
+  width: 151px;
+  height: 24px; 
+    margin-left:40px;
+  
+    
+
    /************** HERO İMAGE **************/
 
 .hero-image {
@@ -230,8 +372,8 @@ padding-right: 20px;
 
 .our-team-persons {
 
-width: 264px;
-/* height: 380px; */
+ /* width: 264px; */
+ height: 380px; 
 margin-top: 112px;
 margin-left: 156px;
         
@@ -273,7 +415,7 @@ opacity: 0px;
 
 .our-team-title {
    width: 162px;
-   /* height: 40px; */
+    height: 40px; 
 
  opacity: 0px;
   padding: 0 auto; 
@@ -290,8 +432,11 @@ display:flex;
 text-align: left;
 
 
-border: 1px solid #7cb015;
 } 
+
+img{
+  display: block;  
+}
 
 .our-team-card{
     width: 264px;
@@ -341,31 +486,35 @@ color:#434455;
 /************************** OUR PORTFOLIO   **********************/
 .our-portfolio  {
     width: 1128px;
-    height: 1000px;
+    /* height: 1000px; */
     
-    margin-left: 156px;
+    margin-left: 156px; 
+    /* margin-left: 15px;*/
     margin-right: 156px;
-    margin-top: 120px;
+    margin-top: 120px; 
     margin-bottom: 120px; 
     box-sizing: border-box;
     padding: 0px;
     display:flex;
-    flex-direction: column;
+    flex-direction: ;
 
-    background-color: #E7E9FC;
-    border-width: 1px;
+    background-color: #e5aee8;
+    border-bottom: 20px solid #7cb015;
    
-    
-
-
-
-
-  
-
 
 
 } 
+/*
+.container{
+    width:1150px;
+    
+   padding-left: 
+    margin-top: 120px;
+    margin-bottom: 120px; 
+    display:flex;
 
+border: 1px solid #7cb015;
+} */
 
 
 .our-portfolio-title {  
@@ -373,28 +522,29 @@ color:#434455;
      padding: opx;
     
     height: 40px;
-     width: 218px;
+     
    
     gap: 0px;
-    opacity: 0px;*/
+    opacity: 0px;
+    
+    
+    color:#2e2f42;*/
+    margin-left: 455px;
+    text-align: left;
+    
+   width: 218px; 
     margin-top: 0px;
     font-size: 36px;
     font-weight: 700;
 
     line-height: 40px;
     letter-spacing: 0.02em;
-    
-    color:#2e2f42;
-    
-    margin-left: 455px;
-
-
 
    
 
     
 
-      }
+      } */
 
 
 
@@ -613,89 +763,12 @@ color:#F4F4FD;
 /********************** MENU TOP *******************/
 
 
-.logo {
-    width:115px;
-    height:24px;
-    margin-top:24px;
-    margin-left: 156px; 
-    
-}
 
-.menu-studio,
-.menu-portfolio,
-.menu-contacts {
-
-    width:70px;
-    height:24px;
-    box-sizing:border-box;
- 
-}
-
-.menu { 
-    width:261px;
-    height:24px;
-    margin-top: 24px;
-    margin-left: 76px;
-  display:flex;
-flex-direction: row;
-  box-sizing:border-box;
-
-  gap: 40px;
-  opacity: 0px;
-  
-
-  
-}
-
-
-
-.mail{
-    width: 153px;
-    height: 24px;
-    margin-top:24px;
-   margin-left:332px; 
-  
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 24px;
-   letter-spacing: 0.02em;
-   text-align: left;
-   overflow: auto;
-    
-  
-}
-
-
-.telephone{
-    width: 151px;
-  height: 24px; 
-    margin-top:24px;
-    margin-left:40px;
-  
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    /* text-align: left; */
-    display: flex;
- 
-border: 1px solid rgb(0, 255, 110);
 
 
 }
-
-.container {
-   
-   width: 1440px;
-   height: 72px;
-   margin-left:0 auto;
-   display:flex;
-   flex-direction: row;
-  
-padding: 0px;
-  
  }
-/*
+
  .filling {
     box-sizing: border-box;
     padding: 10px 20px;
@@ -710,6 +783,6 @@ padding: 0px;
 
 
   }
-*/
+
   
   
