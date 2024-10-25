@@ -31,7 +31,7 @@ body {
        }
 
 
-.top-header {
+.top {
 
     border-bottom: 1px solid #e7e9fc; 
   
@@ -383,7 +383,7 @@ color:#434455;
 
 .our-portfolio-title {  
 
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-size: 36px;
     color: #2e2f42;
     line-height: 1.11;
