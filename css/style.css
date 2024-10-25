@@ -31,17 +31,17 @@ body {
        }
 
 
-.top {
+.top-header {
 
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc; 
   
-    width: 1440px;
+ 
 }
 
 .top-container{
     display: flex;
    margin-top: 24px; 
-  
+   
 
   }
   
@@ -251,7 +251,7 @@ padding: 188px 0;
    
     }
 
-.advantages-section .advantages-list {
+.advantages-list {
  
   
     display: flex;
@@ -297,8 +297,8 @@ padding: 188px 0;
   
  .our-team-section {
    
-    background-color: #F4F4FD;
-    padding: 120px 0;
+background-color: #F4F4FD;
+padding: 120px 0;
 flex-direction: center;
 display: flex;
 text-align: center;
@@ -331,11 +331,9 @@ border-radius: 0px 0px 4px 4px;
 
 .our-team-title {
    
- margin-bottom: 8px;
+margin-bottom: 72px;
 font-size: 36px;
-
 line-height: 1.11;
-
 letter-spacing : 0.02em;
 text-transform: capitalize;
 color:#2e2f42;
