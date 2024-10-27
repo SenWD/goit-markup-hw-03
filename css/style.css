@@ -265,7 +265,7 @@ padding: 188px 0;
     padding-top: 0;
    width: calc((100% - 72px) / 4);
    flex-basis: calc((100% - 72px) / 4);
-   
+     }
 
    .advantages-name {
     margin-top: 8px;
@@ -300,8 +300,6 @@ padding: 120px 0;
 flex-direction: center;
 display: flex;
 text-align: center;
-
-
 
 }
 
@@ -386,7 +384,9 @@ color:#434455;
     
       } 
 
-
+img{
+    display:block;
+}
 
  .service-list {
 
@@ -497,4 +497,3 @@ text-align: left;
  .foot-section .spancolor { 
 color:#F4F4FD;
 } 
-;
