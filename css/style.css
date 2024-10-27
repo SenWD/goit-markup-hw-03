@@ -20,9 +20,11 @@ body {
 .container { 
 
     width: 1158px;
-    margin: 0 auto;
     padding: 0 15px;
-    
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     }
    
 
