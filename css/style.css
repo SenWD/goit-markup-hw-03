@@ -39,8 +39,7 @@ body {
 .top-container{
     display: flex;
    padding: 24px 0;
-   margin: 0 auto;
-
+   
   }
   
 
@@ -241,7 +240,6 @@ padding: 188px 0;
     overflow: hidden;
   }
   
-
   .advantages-section  {
 
         display: flex;
@@ -263,27 +261,25 @@ padding: 188px 0;
 
 
 
-
 .advantages-list-item{  
     padding-top: 0;
    width: calc((100% - 72px) / 4);
    flex-basis: calc((100% - 72px) / 4);
-}
+   
 
-.adv .advantages-name {
+   .advantages-name {
     margin-top: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing : 0.02em;
     color:#2e2f42; 
-     padding-bottom: 8px;
+    padding-bottom: 8px;
+
+ } 
     
-
-
-}
-
-.adv .advantages-text {
+  
+.advantages-text {
    
     color:#434455; 
     font-size: 16px;
@@ -340,13 +336,7 @@ letter-spacing : 0.02em;
 text-transform: capitalize;
 color:#2e2f42;
 
-
-
 } 
-
-img{
-  display: block;  
-}
 
 
 .our-team-content {
@@ -422,13 +412,15 @@ color:#434455;
     
 padding: 32px 16px 32px 16px;
 gap: 8px;
-border-top: none;;
+border-top: none;
 opacity: 0px;
 border-top: none;
 border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
 border-bottom: 1px solid #e7e9fc;
+padding-bottom: 8px;
 }
+
 
 
 .service-list .service-app-title {
