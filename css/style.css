@@ -15,13 +15,18 @@ body {
     background-color: #ffffff;
 }
 
+body li{
+    list-style-type:none;
+}
 
 
-.container { 
+
+
+.container {
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
-    }
+    padding: 0 15px;
+}
    
 
     img{
@@ -29,25 +34,31 @@ body {
        }
 
 
-.top {
-
-    border-bottom: 1px solid #e7e9fc;  
-  
- 
-}
-
 .top-container{
     display: flex;
-  margin: 24px 0;
+    margin: 24px 0;
    
+    
   }
   
 
-.top-nav{
-display: flex;
-align-items: center;
-justify-content:center;
+  .top {
 
+    border-bottom: 1px solid #e7e9fc;  
+    display: flex;
+    align-items: center;
+    justify-content:center;
+ 
+}
+
+
+
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
 
   }
 
@@ -89,53 +100,22 @@ justify-content:center;
 
 
 
- .menu{
+ .top-menu .menu-list .menu{
     font-weight: 500; 
     font-size:16px;
     line-height:1.5;
     letter-spacing : 0.02em;
     color:#2e2f42;
-    padding: 24px 0;
+   
     
     
 }
 
-.top-addr .telephone,
- .top-addr .mail,
-.top-nav .menu  {
-    
-    text-decoration: none; 
-     
-    
-}
-
-
-body  .container li
-{
-  
-     list-style-type: none;
-    
-}
- .mail, .telephone {
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #434455;
-
-
- }
 
 
 
-
-
-
-
-.menu:hover,
-.menu:focus{
+.top-menu .menu-list .menu:hover,
+.top-menu .menu-list .menu:focus{
     color:#3c64db  
   
 }
@@ -161,8 +141,31 @@ color: #434455;
 }
 
 
-.top-addr  :hover,
-.top-addr :focus {
+.top-addr .top-addr-list .addr,
+.top-menu .menu-list .menu {
+   
+    text-decoration: none; 
+     
+    
+}
+
+
+.top-addr .top-addr-list .addr{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #434455;
+
+
+ }
+
+
+
+ .top-addr .top-addr-list .addr:hover,
+.top-addr .top-addr-list .addr:focus {
    
     color: #404bbf;
     }
@@ -224,6 +227,20 @@ padding: 188px 0;
 .hero-button:hover,
 .hero-button:focus {
     background-color:#404BBF;
+
+
+    body  .container li
+    {
+      
+         list-style-type: none;
+        
+    }
+
+
+
+
+
+
 }
 /*************** SECTION 2  ----- ADVANTAGES **************** */
 
