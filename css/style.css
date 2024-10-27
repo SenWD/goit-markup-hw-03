@@ -24,7 +24,7 @@ body {
     }
    
 
-    .img{
+    img{
         display: block;
        }
 
@@ -129,16 +129,14 @@ color: #434455;
 
  }
 
-.m
+
 
 
 
 
 
 .menu:hover,
-.menu:focus
-
-{
+.menu:focus{
     color:#3c64db  
   
 }
@@ -150,8 +148,6 @@ color: #434455;
     font-style:normal;
     display:flex;
     margin-left: auto;
-
-
 
    
 }
@@ -169,7 +165,7 @@ color: #434455;
 .top-addr  :hover,
 .top-addr :focus {
    
-text-decoration: underline;
+    color: #404bbf;
     }
 
     
@@ -417,12 +413,7 @@ color:#434455;
 .service-profile {
  
     width: calc((100% - 48px) / 3);
-  
-    
     background: #FFFFFF;
-    
-    
-    
     
     
        }
@@ -462,17 +453,6 @@ border-bottom: 1px solid #e7e9fc;
   
     color:#434455;
    
-  
-   
-
-
-
-
-
-
-
-
-
 
 }
 /****************** FOOT SECTION ************************/
